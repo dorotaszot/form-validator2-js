@@ -1,6 +1,6 @@
 :root {
-  --success-color: #116466;
-  --error-color: #ffcb9a;
+  --success-color: green;
+  --error-color: red;
 }
 
 * {
@@ -56,4 +56,21 @@ button {
   border-radius: 5px;
   color: #fff;
   width: 100%;
+}
+
+.form-part.error input {
+  border: var(--error-color) 2px solid;
+}
+
+.form-part.success input {
+  border: var(--success-color) 2px solid;
+}
+
+.form-part small {
+  visibility: hidden;
+}
+
+.form-part.error small {
+  color: var(--error-color);
+  visibility: visible;
 }
