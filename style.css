@@ -31,7 +31,7 @@ input {
   width: 100%;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #999
+  border: 1px solid #999;
 }
 
 input:focus {
@@ -44,6 +44,7 @@ input:focus {
   border-radius: 5px;
   padding: 30px 20px;
   min-width: 400px;
+  box-shadow: 0 0 10px #c4c7c3;
 }
 
 form {
