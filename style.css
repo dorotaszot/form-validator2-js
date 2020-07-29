@@ -1,6 +1,6 @@
 :root {
-  --success-color: green;
-  --error-color: red;
+  --success-color: #129134;
+  --error-color: #b80f0a;
 }
 
 * {
@@ -43,6 +43,7 @@ input:focus {
   border: solid 1px #999;
   border-radius: 5px;
   padding: 30px 20px;
+  min-width: 400px;
 }
 
 form {
@@ -52,10 +53,17 @@ form {
 button {
   background-color: var(--success-color);
   padding: 10px;
-  border: var(--success-color) 1px solid;
+  border: none;
   border-radius: 5px;
   color: #fff;
   width: 100%;
+  outline: none;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #12b33d;
+  border: none;
 }
 
 .form-part.error input {
